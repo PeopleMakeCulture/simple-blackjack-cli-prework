@@ -40,13 +40,14 @@ def hit?
   prompt_user
   get_user_input
   return card_total
-  if user_input == "s"
-    break
-  end
+  #if user_input == "s"
+  #  break
+  #end
   if user_input == 'h'
     puts "#hit?"
   end
 end
+
 
 def invalid_command
   # code invalid_command here
