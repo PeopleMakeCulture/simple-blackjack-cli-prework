@@ -44,7 +44,7 @@ def hit?
     break
   end
   if user_input == 'h'
-    #hit?
+    puts "#hit?"
   end
 end
 
