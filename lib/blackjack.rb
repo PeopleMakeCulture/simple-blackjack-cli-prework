@@ -37,7 +37,7 @@ def initial_round
   return sum
 end
 
-def hit?
+def hit?(card_total)
   prompt_user
   user_input = get_user_input
   if user_input == "s"
@@ -46,7 +46,7 @@ def hit?
     deal_card = new_card
     card_total = card_total + new_card
     return card_total
-  else invalid_command
+  #else invalid_command
   end
 
 end
