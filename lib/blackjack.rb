@@ -38,13 +38,13 @@ end
 def hit?
   # code hit? here
   prompt_user
-  get_user_input
+  user_input = get_user_input
   return card_total
   #if user_input == "s"
   #  break
   #end
   if user_input == 'h'
-    puts "#hit?"
+
   end
 end
 
@@ -58,5 +58,9 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  # calls on the #welcome method,
+  # then on the #initial_round method,
+  # then calls #hit? and #display_card_total methods
+  # -until- the card sum is greater than 21,
+  # then calls on the #end_game method
 end
