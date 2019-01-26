@@ -30,7 +30,9 @@ end
 
 def initial_round
   # calls deal_card twice and returns the sum
-  sum = deal_card + deal_card
+  card1 = deal_card
+  card2 = deal_card
+  sum = card1 + card2
   puts "Your cards add up to #{sum}"
   return sum
 end
